@@ -8,7 +8,7 @@ interface RepoStats {
 
 const Footer = async () => {
     const repoStats = await fetch(
-        'https://api.github.com/repos/tajmirul/portfolio-2.0',
+        'https://api.github.com/repos/adarshsahu460/My-portfolio',
         {
             next: {
                 revalidate: 60 * 60, // 1 hour
@@ -32,7 +32,7 @@ const Footer = async () => {
 
                 <div className="">
                     <a
-                        href="https://github.com/Tajmirul/portfolio-2.0"
+                        href="https://github.com/adarshsahu460/My-portfolio"
                         target="_blank"
                         className="leading-none text-muted-foreground hover:underline hover:text-white"
                     >

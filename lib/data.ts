@@ -6,13 +6,11 @@ export const GENERAL_INFO = {
     emailSubject: "Let's collaborate on a project",
     emailBody: 'Hi Adarsh, I am reaching out to you because...',
 
-    oldPortfolio: 'https://www.legacy.me.toinfinite.dev',
 };
 
 export const SOCIAL_LINKS = [
     { name: 'github', url: 'https://github.com/adarshsahu460    ' },
     { name: 'linkedin', url: 'https://www.linkedin.com/in/adarsh-sahu-8888aa244/' },
-    { name: 'Old Version', url: GENERAL_INFO.oldPortfolio },
 ];
 
 export const MY_STACK = {
@@ -41,31 +39,11 @@ export const MY_STACK = {
             name: 'Tailwind CSS',
             icon: '/logo/tailwind.png',
         },
-        {
-            name: 'GSAP',
-            icon: '/logo/gsap.png',
-        },
-        {
-            name: 'Frammer Motion',
-            icon: '/logo/framer-motion.png',
-        },
-        {
-            name: 'SASS',
-            icon: '/logo/sass.png',
-        },
-        {
-            name: 'Bootstrap',
-            icon: '/logo/bootstrap.svg',
-        },
     ],
     backend: [
         {
             name: 'Node.js',
             icon: '/logo/node.png',
-        },
-        {
-            name: 'Nest.js',
-            icon: '/logo/nest.svg',
         },
         {
             name: 'Express.js',
@@ -254,7 +232,7 @@ export const PROJECTS: IProject[] = [
             '/projects/images/consulting-finance-2.png',
             '/projects/images/consulting-finance-3.png',
         ],
-        sourceCode: 'https://github.com/Tajmirul/crenotive',
+        sourceCode: 'https://github.com/adarshsahu460/My-portfolio',
         liveUrl: 'https://crenotive.netlify.app/',
         year: 2023,
         description:
@@ -272,7 +250,7 @@ export const PROJECTS: IProject[] = [
             '/projects/images/devLinks-2.png',
             '/projects/images/devLinks-3.png',
         ],
-        sourceCode: 'https://github.com/Tajmirul/devsLink',
+        sourceCode: 'https://github.com/adarshsahu460/My-portfolio',
         liveUrl: 'https://devlinks-demo.vercel.app/auth/signin',
         year: 2023,
         description: `One of the most challenging projects in Frontend Mentor.<br/><br/>
